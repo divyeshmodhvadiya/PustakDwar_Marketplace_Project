@@ -1,0 +1,76 @@
+const categories = ["All", "Novels", "Education", "Kids"];
+
+const books = [
+  {
+    id: "little-prince",
+    title: "The Little Prince",
+    author: "Antoine de Saint-Exupéry",
+    category: "Kids",
+    price: 450,
+    originalPrice: 650,
+    rating: 4.9,
+    cover: "images/books/little-prince.svg",
+    description:
+      "A tender, timeless story about a pilot, a little prince, and the strange wisdom found in looking at the world with an open heart.",
+    condition: "Like new",
+    seller: "Maya R.",
+    badge: "Reader favourite",
+  },
+  {
+    id: "alchemist",
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    category: "Novels",
+    price: 500,
+    originalPrice: 750,
+    rating: 4.7,
+    cover: "images/books/alchemist.svg",
+    description:
+      "Follow Santiago across the desert as he learns to listen for the treasure that has been quietly calling him home.",
+    condition: "Very good",
+    seller: "Naveen K.",
+    badge: "Real cover",
+  },
+  {
+    id: "educated",
+    title: "Educated",
+    author: "Tara Westover",
+    category: "Education",
+    price: 550,
+    originalPrice: 800,
+    rating: 4.8,
+    cover: "images/books/educated.svg",
+    description:
+      "Tara Westover’s unforgettable memoir of growing up off the grid and finding a new life through learning.",
+    condition: "Good",
+    seller: "Priyasha S.",
+  },
+  {
+    id: "normal-people",
+    title: "Normal People",
+    author: "Sally Rooney",
+    category: "Novels",
+    price: 480,
+    originalPrice: 700,
+    rating: 4.5,
+    cover: "images/books/normal-people.svg",
+    description:
+      "A quietly electric novel about friendship, love, and the invisible ties that keep two people returning to one another.",
+    condition: "Like new",
+    seller: "Anu M.",
+  },
+  {
+    id: "clean-code",
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    category: "Education",
+    price: 780,
+    originalPrice: 1200,
+    rating: 4.8,
+    cover: "images/books/clean-code.svg",
+    description:
+      "Practical guidance for writing code that is clear, maintainable, and kind to the next person who reads it.",
+    condition: "Good",
+    seller: "Rohan D.",
+  },
+];

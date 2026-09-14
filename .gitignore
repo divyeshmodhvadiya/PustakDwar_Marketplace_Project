@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+*.code-workspace
+
+# Local development output
+*.log
+node_modules/
+dist/
+build/
+
