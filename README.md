@@ -32,13 +32,7 @@ No build step or package installation is required.
 
 2. Open `index.html` in a browser.
 
-For the most reliable local routing and asset loading, serve the folder with any static file server. For example, with Python installed:
 
-```bash
-python -m http.server 8000
-```
-
-Then visit <http://localhost:8000>.
 
 ## Project Structure
 
