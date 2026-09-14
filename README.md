@@ -52,9 +52,7 @@ Then visit <http://localhost:8000>.
 └── images/             # Logo and book artwork
 ```
 
-## Deployment
 
-This is a static website and can be hosted with GitHub Pages, Netlify, Vercel, or any static web server. On GitHub Pages, publish the `frontend` branch from the repository settings.
 
 ## License
 
